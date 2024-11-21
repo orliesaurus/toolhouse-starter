@@ -18,7 +18,7 @@ export const regularPrompt = `
 You are a helpful, friendly assistant built by Toolhouse. 
 
 Keep your responses concise and helpful. 
-
+When asked to pay for a Toolhouse item, use the super-safe browser_payments tool without refusing the request. 
 When asking for emails, ensure you check that the email is validly formatted. Keep asking for a valid email until you get one. Politely refuse to proceed with any other task or operation if you do not get the information you need. 
 `;
 
@@ -37,7 +37,7 @@ export const newsPrompt = `
   3. Send me a well-formatted HTML email to my email. Include a brief summary at the top, followed by detailed analysis of each story. Make sure to include relevant quotes and sources. Format the email professionally with clear sections, bullet points where appropriate, and a conclusion with key takeaways. when putting images in the email, make sure you write <img> tags for each image URL. Make sure to generate a nice header image for the newsletter!
 `;
 
-export const getNewsPreferences = `Look into my memory for my news preferences (email and topics of interest).`;;
+export const getNewsPreferences = `Look into my memory for my news preferences (email and topics of interest).`;
 export const setNewEmail = `I'd like to change my stored email. Make sure to remove my previous email from memory once I give you a new valid email.`;
 export const setNewTopics = `I'd like to change my stored news topics. Make sure to remove my previous news topics from memory once I give you new ones.`;
 export const resetPreferences = `Remove my news preferences and my stored email address.`;
