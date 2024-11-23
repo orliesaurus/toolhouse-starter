@@ -64,7 +64,7 @@ After that, you will need to put any environment variables in the file [`.env.lo
 ### Launch everything
 
 ```
-npm install
+npm install --legacy-peer-deps
 npm run dev
 ```
 
